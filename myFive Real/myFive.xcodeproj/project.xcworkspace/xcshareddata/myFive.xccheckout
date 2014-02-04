@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E56B78C5-9776-4410-A403-33A33FC32E08</string>
+	<key>IDESourceControlProjectName</key>
+	<string>myFive</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>0583806E-3760-41AD-8103-39768554E7A2</key>
+		<string>https://github.com/enigma322/MyFive.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>myFive Real/myFive.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>0583806E-3760-41AD-8103-39768554E7A2</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/enigma322/MyFive.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>0583806E-3760-41AD-8103-39768554E7A2</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>0583806E-3760-41AD-8103-39768554E7A2</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MyFive Working Version</string>
+		</dict>
+	</array>
+</dict>
+</plist>

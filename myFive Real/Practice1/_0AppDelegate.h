@@ -18,5 +18,6 @@
 @property (strong, nonatomic) UIWindow *window;
 @property NSString *name;
 @property NSString *playSound;
-
+@property NSString *temp;
+@property NSUserDefaults *defaults;
 @end

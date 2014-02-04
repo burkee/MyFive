@@ -18,5 +18,6 @@
 @property _0AppDelegate *app;
 
 @property User *userData;
-
+@property User *myUser;
+@property NSUserDefaults *defaults;
 @end

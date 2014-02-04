@@ -34,4 +34,6 @@
 @property NSString *relation3;
 /////////////////////////////////////////////////
 
++ (id)myUser;
+
 @end

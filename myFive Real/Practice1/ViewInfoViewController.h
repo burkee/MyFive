@@ -12,6 +12,7 @@
 #import <AVFoundation/AVFoundation.h>
 #import "_0AppDelegate.h"
 
+
 @class User;
 @class _0AppDelegate;
 
@@ -32,6 +33,7 @@
 @property (weak, nonatomic) IBOutlet UITextView *allergiesLabel;
 @property (weak, nonatomic) IBOutlet UILabel *birthdayLabel;
 @property (weak, nonatomic) IBOutlet UILabel *nameField;
+@property (weak, nonatomic) IBOutlet UILabel *nameField2;
 
 #pragma -Model-
 @property User* userData;

@@ -16,6 +16,11 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+
+    //Allows the ringer to only play once
+//    self.temp = @"YES";
+
+    
     return YES;
 }
 							
@@ -35,11 +40,21 @@
 - (void)applicationWillEnterForeground:(UIApplication *)application
 {
     // Called as part of the transition from the background to the inactive state; here you can undo many of the changes made on entering the background.
+    
+    //Allow ringer to only play once
+//    if ([self.temp isEqualToString:@"YES"]){
+//        self.playSound = @"YES";
+//        self.temp = @"NO";
+//    }
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    NSString *firstName = [defaults objectForKey:@"firstName"];
 
-    //These lines of code play the sound after coming back from phone call (911)
+//These lines of code play the sound after coming back from phone call (911)
+    //self.playSound = @"YES";
     if([self.playSound isEqualToString:@"YES"]){
         //The local notifcation code
-    UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"EMERGENCY" message:[NSString stringWithFormat:@"%@'s medical information",self.name] delegate:self cancelButtonTitle:@"VIEW" otherButtonTitles:nil];
+       // User *myUser = [User myUser];
+    UIAlertView *alertView = [[UIAlertView alloc]initWithTitle:@"EMERGENCY" message:[NSString stringWithFormat:@"%@'s medical information",firstName] delegate:self cancelButtonTitle:@"VIEW" otherButtonTitles:nil];
     [alertView show];
         //The local notification code
         
@@ -51,6 +66,8 @@
     [self.audioPlayer play];
     }
     self.playSound = @"NO";
+
+    //self.playSound = @"YES";
     //These lines of code play the sound after coming back from phone call (911)
     
 }
@@ -67,8 +84,9 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
--(void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification*)notification{
 
+
+-(void)application:(UIApplication *)application didReceiveLocalNotification:(UILocalNotification*)notification{
 
 }
 

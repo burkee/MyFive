@@ -11,6 +11,11 @@
 		4102E7B0183F04EA008D07CC /* tada.png in Resources */ = {isa = PBXBuildFile; fileRef = 4102E7AF183F04EA008D07CC /* tada.png */; };
 		4102E7B2183F0605008D07CC /* audiomute.png in Resources */ = {isa = PBXBuildFile; fileRef = 4102E7B1183F0605008D07CC /* audiomute.png */; };
 		4102E7B4183F09F6008D07CC /* siren.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4102E7B3183F09F6008D07CC /* siren.mp3 */; };
+		411190CF18911909002DD60B /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 411190CE18911909002DD60B /* SettingsViewController.m */; };
+		411190DE18976B84002DD60B /* lock-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 411190DD18976B84002DD60B /* lock-icon.png */; };
+		411190E218976BA9002DD60B /* wrench-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 411190E018976BA9002DD60B /* wrench-icon.png */; };
+		411190F01899E7A0002DD60B /* Book-icon-orange - 30x30 v1.png in Resources */ = {isa = PBXBuildFile; fileRef = 411190EF1899E7A0002DD60B /* Book-icon-orange - 30x30 v1.png */; };
+		411190F41899E8A7002DD60B /* setting-icon-60x60v4.png in Resources */ = {isa = PBXBuildFile; fileRef = 411190F31899E8A7002DD60B /* setting-icon-60x60v4.png */; };
 		4114BBFF183EEC1B003FD648 /* arrow.png in Resources */ = {isa = PBXBuildFile; fileRef = 4114BBFB183EEC1B003FD648 /* arrow.png */; };
 		4114BC03183EECC1003FD648 /* translucent.png in Resources */ = {isa = PBXBuildFile; fileRef = 4114BC02183EECC1003FD648 /* translucent.png */; };
 		4114BC05183EF47F003FD648 /* translucent2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4114BC04183EF47F003FD648 /* translucent2.png */; };
@@ -67,6 +72,12 @@
 		4102E7AF183F04EA008D07CC /* tada.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tada.png; sourceTree = "<group>"; };
 		4102E7B1183F0605008D07CC /* audiomute.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = audiomute.png; sourceTree = "<group>"; };
 		4102E7B3183F09F6008D07CC /* siren.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = siren.mp3; sourceTree = "<group>"; };
+		411190CD18911909002DD60B /* SettingsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		411190CE18911909002DD60B /* SettingsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
+		411190DD18976B84002DD60B /* lock-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lock-icon.png"; sourceTree = "<group>"; };
+		411190E018976BA9002DD60B /* wrench-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "wrench-icon.png"; sourceTree = "<group>"; };
+		411190EF1899E7A0002DD60B /* Book-icon-orange - 30x30 v1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Book-icon-orange - 30x30 v1.png"; sourceTree = "<group>"; };
+		411190F31899E8A7002DD60B /* setting-icon-60x60v4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "setting-icon-60x60v4.png"; sourceTree = "<group>"; };
 		4114BBFB183EEC1B003FD648 /* arrow.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow.png; sourceTree = "<group>"; };
 		4114BC02183EECC1003FD648 /* translucent.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = translucent.png; sourceTree = "<group>"; };
 		4114BC04183EF47F003FD648 /* translucent2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = translucent2.png; sourceTree = "<group>"; };
@@ -156,6 +167,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		41ABD0EE18A068A600DB1E7A /* images */ = {
+			isa = PBXGroup;
+			children = (
+				4B43379A183595EC0079292B /* Images.xcassets */,
+				411190F31899E8A7002DD60B /* setting-icon-60x60v4.png */,
+				411190EF1899E7A0002DD60B /* Book-icon-orange - 30x30 v1.png */,
+				411190E018976BA9002DD60B /* wrench-icon.png */,
+				411190DD18976B84002DD60B /* lock-icon.png */,
+				412E7A1E183FEAE70048F057 /* 58.png */,
+				412E7A1F183FEAE70048F057 /* 80.png */,
+				412E7A20183FEAE70048F057 /* 120.png */,
+				4102E7B3183F09F6008D07CC /* siren.mp3 */,
+				4102E7B1183F0605008D07CC /* audiomute.png */,
+				4102E7AF183F04EA008D07CC /* tada.png */,
+				4102E7AB183F0437008D07CC /* hobo.png */,
+				4114BC02183EECC1003FD648 /* translucent.png */,
+				4114BC06183EF500003FD648 /* user icon 2.png */,
+				4114BC04183EF47F003FD648 /* translucent2.png */,
+				4114BBFB183EEC1B003FD648 /* arrow.png */,
+				4114BC0A183EF50F003FD648 /* magnify.png */,
+				4114BC08183EF508003FD648 /* phone2.png */,
+				41AE77DC183DCE860059CD91 /* myfivelogo.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		41F2F15D188DCCAC006B94CB /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -206,21 +243,9 @@
 		4B433788183595EC0079292B /* Practice1 */ = {
 			isa = PBXGroup;
 			children = (
-				412E7A1E183FEAE70048F057 /* 58.png */,
-				412E7A1F183FEAE70048F057 /* 80.png */,
-				412E7A20183FEAE70048F057 /* 120.png */,
-				4102E7B3183F09F6008D07CC /* siren.mp3 */,
-				4102E7B1183F0605008D07CC /* audiomute.png */,
-				4102E7AF183F04EA008D07CC /* tada.png */,
-				4102E7AB183F0437008D07CC /* hobo.png */,
-				4114BC02183EECC1003FD648 /* translucent.png */,
-				4114BC06183EF500003FD648 /* user icon 2.png */,
-				4114BC04183EF47F003FD648 /* translucent2.png */,
-				4114BBFB183EEC1B003FD648 /* arrow.png */,
-				4114BC0A183EF50F003FD648 /* magnify.png */,
-				4114BC08183EF508003FD648 /* phone2.png */,
-				41AE77DC183DCE860059CD91 /* myfivelogo.png */,
-				4B43379A183595EC0079292B /* Images.xcassets */,
+				41ABD0EE18A068A600DB1E7A /* images */,
+				411190CD18911909002DD60B /* SettingsViewController.h */,
+				411190CE18911909002DD60B /* SettingsViewController.m */,
 				4B433791183595EC0079292B /* _0AppDelegate.h */,
 				4B433792183595EC0079292B /* _0AppDelegate.m */,
 				4B433794183595EC0079292B /* Main.storyboard */,
@@ -404,16 +429,20 @@
 				412E7A21183FEAE70048F057 /* 58.png in Resources */,
 				4114BC09183EF508003FD648 /* phone2.png in Resources */,
 				4102E7AC183F0437008D07CC /* hobo.png in Resources */,
+				411190F01899E7A0002DD60B /* Book-icon-orange - 30x30 v1.png in Resources */,
 				4102E7B4183F09F6008D07CC /* siren.mp3 in Resources */,
 				412E7A22183FEAE70048F057 /* 80.png in Resources */,
 				4B43379B183595EC0079292B /* Images.xcassets in Resources */,
 				41AE77DF183DCE860059CD91 /* myfivelogo.png in Resources */,
+				411190E218976BA9002DD60B /* wrench-icon.png in Resources */,
 				4114BC03183EECC1003FD648 /* translucent.png in Resources */,
 				4114BC07183EF500003FD648 /* user icon 2.png in Resources */,
+				411190DE18976B84002DD60B /* lock-icon.png in Resources */,
 				4114BC0B183EF50F003FD648 /* magnify.png in Resources */,
 				412E7A23183FEAE70048F057 /* 120.png in Resources */,
 				4B43378D183595EC0079292B /* InfoPlist.strings in Resources */,
 				4102E7B0183F04EA008D07CC /* tada.png in Resources */,
+				411190F41899E8A7002DD60B /* setting-icon-60x60v4.png in Resources */,
 				4102E7B2183F0605008D07CC /* audiomute.png in Resources */,
 				4114BBFF183EEC1B003FD648 /* arrow.png in Resources */,
 				4B433796183595EC0079292B /* Main.storyboard in Resources */,
@@ -455,6 +484,7 @@
 				41AE0E0D183AD3FE0038BD74 /* ViewInfoViewController.m in Sources */,
 				4B433799183595EC0079292B /* _0ViewController.m in Sources */,
 				4B433793183595EC0079292B /* _0AppDelegate.m in Sources */,
+				411190CF18911909002DD60B /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -757,6 +787,7 @@
 				41F2F187188DCCAC006B94CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		41F2F18B188DCCAC006B94CB /* Build configuration list for PBXNativeTarget "testTests" */ = {
 			isa = XCConfigurationList;
@@ -765,6 +796,7 @@
 				41F2F189188DCCAC006B94CB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4B43377A183595EC0079292B /* Build configuration list for PBXProject "myFive" */ = {
 			isa = XCConfigurationList;

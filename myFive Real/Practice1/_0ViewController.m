@@ -20,11 +20,15 @@
 
 - (void)viewDidLoad
 {
+ 
     [super viewDidLoad];
         
-    [(UIScrollView*)self.view setContentSize:CGSizeMake(320, 568)]; //sets the size of the screen
+    //[(UIScrollView*)self.view setContentSize:CGSizeMake(320, 568)]; //sets the size of the screen
+    //[(UIView*)self.view setContentSize:CGSizeMake(320, 568)];
     self.app = (_0AppDelegate *)[[UIApplication sharedApplication] delegate];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    
 }
 
 - (void)didReceiveMemoryWarning
@@ -57,7 +61,7 @@
 
 - (IBAction)callButton:(id)sender {
    
-    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"telprompt://8312770866"]];
+    [[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"telprompt://18003569377"]];
     //Change the telprompt number to change the number the app calls
     
     //schedules a local notification
@@ -69,6 +73,7 @@
     emergency.repeatInterval = 0;
     emergency.soundName = UILocalNotificationDefaultSoundName;
     [[UIApplication sharedApplication] scheduleLocalNotification:emergency];
+    self.app.playSound = @"YES";
 }
 
 @end
